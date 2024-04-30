@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+        <title>Universal Art</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h3 class="title">Universal Art</h3>
+                <nav>
+                    <a href="">Tutorial</a>
+                    <a href="">Contacts</a>
+                    <a href="">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="jumbotron">
+                <div class="jumbotron">
+                    <div class="header-flex">
+                        <div>
+                            <h1 class="jumbotron-title">It is important to know <span style="color: rgb(42, 111, 157);">How to Draw</span> , <br> Before you <span style="color: rgb(42, 111, 157);">Start Drawing</span></h1>
+                            <h2 class="jumbotron-text">This blog will show you the fun and easiest way to draw!</h2>
+                            <div class="mini-text-flex">
+                                <p class="mini-text">You are not limited by what you can or can't do. Try it step-by-step, anywhere, anytime, without worries.</p>
+                                <p class="mini-text">Let's start, don't be doubt</p>
+                            </div>                           
+                        </div>
+                        <div>
+                            <img onmouseover="changeImage(this)" onmouseout="changeImageBack(this)" class="jumbotron-img" src="assets/img-header1.png" alt="" width="700" height="300">
+                        </div>
+                </div>
+            </section>
+
+            <div class="main-content">
+                <section id="profile">
+                    <aside>
+                        <i class="fa-solid fa-circle-user"></i>
+                        <p>Caitlin Halderman</p>
+                        <img class="profile-picture" src="assets/profile-photo.jpg" alt="caitlin" width="100px"
+                        height="auto">
+                        <!-- LIKE DISLIKE BUTTON -->
+                        <div class="toggle">
+                            <button class="btn" id="green">
+                                <i class="fa fa-thumbs-up fa-lg"></i>
+                            </button>
+                            <button class="btn" id="red">
+                                <i class="fa fa-thumbs-down fa-lg"></i>
+                            </button>
+                        </div>
+                    </aside>
+                </section>
+
+                <section id="articles">
+                    <div class="content-container">
+                        <article class="my-project">
+                            <h3 id="content-title">Project Teaser</h3>
+                            <div class="project-container">
+                                <div class="project-card">
+                                    <div class="top-blue-shape"></div>
+                                        <img src="assets/drawing1.jpg" alt="">
+                                        <h4 class="project-title">Professional Character</h4>
+                                        <p class="project-description">We will learn how to draw a professional character combine with colorful texture using digital art</p>
+                                </div>
+                                <div class="project-card">
+                                    <div class="top-blue-shape"></div>
+                                    <img src="assets/drawing2.jpg" alt="">
+                                    <h4 class="project-title">Object</h4>
+                                    <p class="project-description">Drawing objects may look easier, but how to make it looks like real?</p>
+                                </div>
+                                <div class="project-card">
+                                    <div class="top-blue-shape"></div>
+                                    <img src="assets/drawing3.jpg" alt="">
+                                    <h4 class="project-title">Colorful Painting</h4>
+                                    <p class="project-description">Not only digital art tutorial, but we also provide watercolor based tutorial</p>
+                                </div>
+                                <div class="project-card">
+                                    <div class="top-blue-shape"></div>
+                                    <img src="assets/drawing4.jpg" alt="">
+                                    <h4 class="project-title">Monochrome Painting</h4>
+                                    <p class="project-description">Sometimes it becomes bopred to apply so many colors. So, let's have a different looks sometimes with black and white.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </article>
+                    <article class="video">
+                        <div class="video-container">
+                            <h3 class="content-title">Check This Out!</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/W7texgGDaRs?si=VyG5fTEg25sL2FLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <footer>
+                <div class="main-footer">
+                    <h3 class="info-top">Caitlin at Universal Art</h3>
+                    <div class="social-media">
+                         <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <p class="info-center">Copyright &copy; 2021. Universal Art. All rights reserved.</p>
+                </div>
+            </footer>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
